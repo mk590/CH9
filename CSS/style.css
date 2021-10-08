@@ -1,0 +1,226 @@
+#navbar{
+    display: flex;
+    padding: 14px 26px;
+    border: 2px solid blue;
+}
+#logo{
+    margin: 0px -22px 0px 30px;
+    padding: 30px;
+}
+#nav-list{
+    display: flex;
+    list-style: none;
+    margin: 14px 161px 0px 172px;
+}
+#nav-list li{
+    padding: 12px 6px 12px 23px;
+}
+.icon{
+    display: none;
+}
+#nav-btn{
+    border-radius: 23px;
+    background-color: orange;
+    height: 33px;
+    width: 112px;
+    padding: 7px;
+    margin: 21px;
+}
+#intro{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px 6px;
+}
+#intro-img{
+    background-color: palegoldenrod;
+}
+#intro-content{
+    text-align: left;
+    padding: 12px 2px;
+}
+h4{
+    color: black;
+    font-size: 68px;
+    margin: 30px 0px 24px 0px;
+}
+#intro-content p{
+    font-size: 26px;
+}
+#intro-btn{
+    border-radius: 23px;
+    background-color: orange;
+    height: 33px;
+    width: 112px;
+    padding: 7px;
+    margin: 23px 0px 0px 122px;
+}
+#more{
+    display: flex;
+}
+#special{
+    text-align: center;
+    margin: 20px 0px 0px 1px;
+}
+#more-list{}
+#more-list ul {
+    text-align: left;
+    list-style: lower-roman;
+    list-style-type: decimal-leading-zero;
+    /* list-style-position: inside; */
+}
+#review-top big{
+    text-align: center;
+    display: inline-block;
+    padding: 64px 533px;
+}
+#review{
+    display: flex;
+}
+.review-box{
+    text-align: center;
+    /* height: 3%; */
+    /* width: 31%; */
+    border: 2px solid green;
+    margin: 5px 90px 5px 60px;
+}
+.review-box img{
+    position: relative;
+    top: -40px;
+    height: 92px;
+    width: 92px;
+    margin: 0px;
+}
+.review-box p{
+   margin: 0px;
+}
+#review-btn{        
+    border-radius: 23px;
+    background-color: orange;
+    height: 33px;
+    width: 112px;
+    padding: 7px;
+    margin: 50px 0px 43px 547px;
+}
+#ribbon{
+    background-color: palegoldenrod;
+    margin: 11px 0px 0px 0px;
+    padding: 22px 14px 42px 42px;
+    font-size: 31px;
+}
+#ribbon-btn{
+    border-radius: 23px;
+    background-color: orange;
+    height: 43px;
+    width: 162px;
+    padding: -23px;
+    margin: 30px 150px 13px 387px;
+}
+#bottom{
+    display: flex;
+    background-color: brown;
+}
+#cont1{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 64px 7px 13px;
+    margin: 7px 10px 0px 90px;
+}
+#sub-cont1{
+    margin: 6px 4px 16px 1px;
+    padding: 0px;
+}
+#sub-cont2{
+    margin: 2px;
+    padding: 1px;
+}
+
+#cont2{
+    margin: 22px 16px 17px 12px;
+}
+#cont3{
+    margin: 8px 110px 2px 42px;
+}
+#bottom-li-2 li{
+    padding: 2px 2px 2px 2px;
+    list-style: none;
+}
+#cont4{
+    margin: 28px 2px 2px 2px;
+}
+#cont4 input{
+    border-radius: 12px;
+    margin: 3px 4px 6px 51px;
+    padding: 7px;
+}
+#bottom-btn{
+    border-radius: 23px;
+    background-color: orange;
+    height: 43px;
+    width: 60px;
+    padding: -23px;
+    margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width:375px) {
+    #intro{
+        flex-direction: column;
+    }
+    .icon{
+        display: block;
+    }
+    #nav-list{
+        display: none;
+    }
+    #nav-btn{
+        display: none;
+    }
+    #more{
+        flex-direction: column;
+    }
+    #review{
+        display: none;
+    }
+    #ribbon{
+        display: block;
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+    #ribbon-btn{
+        margin: auto;
+    }
+
+    #bottom{
+        flex-direction: column-reverse;
+    }
+    #cont1{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 8px 25px 12px 13px;
+        margin: 7px 10px -13px 52px;
+    }
+    
+        #cont2{
+            margin: 8px 110px 2px 78px;
+        }
+        #intro-img img{
+            height: 100%;
+            width: 100%;
+        }
+
+        #cont4{
+            display: flex;
+        }
+
+        #cont4 input{
+            margin: 2px 7px 2px 32px;
+               }
+        #bottom-btn{
+            border-radius: 13px;
+            background-color: orange;
+            height: 39px;
+            width: 54px;
+            padding: -23px;
+            margin: 0px 0px 0px 0px;
+        }
+}
